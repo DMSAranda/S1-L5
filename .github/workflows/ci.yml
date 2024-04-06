@@ -18,9 +18,18 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Run tests
+    - name: Suma
       run:
         python -m unittest test_suma.py
+
+    - name: Resta
+      run:     
         python -m unittest test_resta.py
+
+    - name: Multiplicacion
+      run:    
         python -m unittest test_multiplicacion.py
+        
+    - name: Division
+      run:    
         python -m unittest test_division.py
