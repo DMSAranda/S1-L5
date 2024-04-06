@@ -1,5 +1,5 @@
 import unittest
-from resta import restar
+from functions import restar
 
 class TestRestar(unittest.TestCase):
     def test_restar(self):

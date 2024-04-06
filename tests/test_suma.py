@@ -1,5 +1,5 @@
 import unittest
-from suma import sumar
+from functions import sumar
 
 class TestSumar(unittest.TestCase):
     def test_sumar(self):
