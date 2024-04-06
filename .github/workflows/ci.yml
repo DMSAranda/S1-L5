@@ -20,16 +20,16 @@ jobs:
 
     - name: Suma
       run:
-        python -m unittest test_suma.py
+        python -m unittest functions/test_suma.py
 
     - name: Resta
       run:     
-        python -m unittest test_resta.py
+        python -m unittest functions/test_resta.py
 
     - name: Multiplicacion
       run:    
-        python -m unittest test_multiplicacion.py
-        
+        python -m unittest functions/test_multiplicacion.py
+
     - name: Division
       run:    
-        python -m unittest test_division.py
+        python -m unittest functions/test_division.py
